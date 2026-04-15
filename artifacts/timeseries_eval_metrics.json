@@ -1,0 +1,17 @@
+{
+  "n_metrics_rows": 58,
+  "n_curve_samples": 3,
+  "monotonicity": {
+    "atoms_Li6": {
+      "violations": 0,
+      "total": 14
+    },
+    "atoms_Li7": {
+      "violations": 0,
+      "total": 14
+    }
+  },
+  "ac1": true,
+  "ac2": true,
+  "ac3": true
+}

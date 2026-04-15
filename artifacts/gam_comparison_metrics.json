@@ -1,0 +1,12 @@
+{
+  "r2_gam": 0.9654073253293158,
+  "r2_hgbr": 0.9572957246675965,
+  "r2_difference": -0.008111600661719343,
+  "mae_gam": 0.007144257256402458,
+  "mae_hgbr": 0.006476416969249134,
+  "conclusion": "C3_independently_confirmed",
+  "additive_model": "SplineTransformer(n_knots=5, degree=3) + Ridge(alpha=1.0)",
+  "hgbr_params": "lr=0.05, max_depth=4, max_iter=1200, early_stopping=True",
+  "n_train": 116,
+  "n_test": 14
+}

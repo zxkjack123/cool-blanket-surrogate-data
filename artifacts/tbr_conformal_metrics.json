@@ -1,0 +1,24 @@
+{
+  "test_mae": 0.006476416969249134,
+  "test_r2": 0.9572957246675965,
+  "test_median_abs_log10_ratio": 0.0010994865960609508,
+  "test_picp": 0.9285714285714286,
+  "cal_picp": 1.0,
+  "qhat": 0.0351841912520332,
+  "ci_width": 0.0703683825040664,
+  "alpha": 0.1,
+  "pred_range": 0.2121649861397208,
+  "range_width_ratio": 3.015061290167645,
+  "gate_2_1_to_2_2_pass": true,
+  "n_train": 116,
+  "n_cal": 14,
+  "n_test": 14,
+  "feature_cols": [
+    "FW_THICK_CM",
+    "PBLI_THICK_CM",
+    "SHIELD_THICK_CM",
+    "VV_THICK_CM",
+    "LI6_ENRICH_ATOM_FRAC"
+  ],
+  "seed": 42
+}

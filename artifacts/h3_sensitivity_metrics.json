@@ -1,0 +1,85 @@
+{
+  "cell_2": {
+    "r2_trainval": 0.9997857967680432,
+    "r2_test": 0.9977110365606809,
+    "mae_test_log10": 0.002528277126430873,
+    "ranking": [
+      "FW_THICK_CM",
+      "LI6_ENRICH_ATOM_FRAC",
+      "VV_THICK_CM",
+      "SHIELD_THICK_CM",
+      "PBLI_THICK_CM"
+    ],
+    "top3": [
+      "FW_THICK_CM",
+      "LI6_ENRICH_ATOM_FRAC",
+      "VV_THICK_CM"
+    ],
+    "importance": {
+      "FW_THICK_CM": {
+        "mean": 1.9995777689245087,
+        "std": 0.4710329934203759
+      },
+      "PBLI_THICK_CM": {
+        "mean": -5.517834499918865e-05,
+        "std": 4.803710193416429e-05
+      },
+      "SHIELD_THICK_CM": {
+        "mean": 1.1200870830626227e-05,
+        "std": 9.152032275750953e-06
+      },
+      "VV_THICK_CM": {
+        "mean": 4.1930009269549226e-05,
+        "std": 6.748483711171054e-05
+      },
+      "LI6_ENRICH_ATOM_FRAC": {
+        "mean": 0.00017679196388591388,
+        "std": 0.00010212248447976686
+      }
+    }
+  },
+  "cell_3": {
+    "r2_trainval": 0.9955491511820181,
+    "r2_test": 0.9679562197283599,
+    "mae_test_log10": 0.025136288041304918,
+    "ranking": [
+      "LI6_ENRICH_ATOM_FRAC",
+      "PBLI_THICK_CM",
+      "FW_THICK_CM",
+      "SHIELD_THICK_CM",
+      "VV_THICK_CM"
+    ],
+    "top3": [
+      "LI6_ENRICH_ATOM_FRAC",
+      "PBLI_THICK_CM",
+      "FW_THICK_CM"
+    ],
+    "importance": {
+      "FW_THICK_CM": {
+        "mean": 0.008024560124942437,
+        "std": 0.003833653755952084
+      },
+      "PBLI_THICK_CM": {
+        "mean": 1.053458800785675,
+        "std": 0.2659659344354211
+      },
+      "SHIELD_THICK_CM": {
+        "mean": 0.001239791441329252,
+        "std": 0.002923950908936268
+      },
+      "VV_THICK_CM": {
+        "mean": 0.0008762199840960605,
+        "std": 0.0007603984478578551
+      },
+      "LI6_ENRICH_ATOM_FRAC": {
+        "mean": 1.4886838919565337,
+        "std": 0.49919555312712954
+      }
+    }
+  },
+  "acceptance": {
+    "ac1": true,
+    "ac2": true,
+    "ac3_r2_gt_0_8": true
+  }
+}
